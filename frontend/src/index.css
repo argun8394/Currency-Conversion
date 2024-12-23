@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.container {
+  min-height: calc(100vh - 280px);
+  margin-top: 80px;
+}
+
+.containerDiv {
+  width: clamp(200px, 90%, 1440px);
+}
+
+.navBarPadding {
+  padding-left: 16px;
+}
+
+.pageH {
+  min-height: calc(100vh - 200px);
+}
